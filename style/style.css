@@ -54,30 +54,39 @@
 }
 /* ----------------------------------------Fresh Flower----------------------------- */
 .fresh-flower {
-  width: 1140px;
-  /* height: 461px; */
-  margin: 30px auto;
-  /* background-color: antiquewhite; */
   display: flex;
   align-items: center;
+  text-align: center;
+  justify-content: center;
 }
-.fresh-flower-description {
+/* .fresh-flower {
+  width: 1140px;
+  height: 461px; */
+/* margin: 30px auto; */
+/* background-color: antiquewhite; */
+/* display: flex;
+  align-items: center;
+} */
+/* .fresh-flower-description {
   /* padding-top: 100px; */
-  width: 570px;
-  height: 178px;
-  margin-top: 110px;
-}
-.fresh-flower-description h1 {
+/* width: 570px;
+  height: 178px; */
+/* margin-top: 110px; */
+
+/* .fresh-flower-description  p{
+  text-align: center;
+  align-items: center;
+} */
+/* .fresh-flower-description h1 {
   font-size: 65px;
   font-weight: 700;
-}
-.fresh-flower-image {
+} */
+/* .fresh-flower-image {
   display: block;
   width: 570px;
   height: 355px;
-}
-.fresh-flower-image img {
-}
+} /* */
+
 /* ---------------------------------------Card------------------------------ */
 .card {
   width: 888px;
@@ -85,7 +94,7 @@
   text-align: center;
 }
 .card h1 {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 700;
 }
 .card-demu {
@@ -230,7 +239,8 @@ h1 {
 }
 .subscrive-box {
   display: flex;
-  max-width: 400px;
+
+  /* max-width: 400px; */
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -323,7 +333,7 @@ h1 {
 
 /* Mobile responsive: hide nav-links under 768px */
 
-@media (min-width: 440px) and (max-width: 800px) {
+@media (min-width: 340px) and (max-width: 800px) {
   .nav-item {
     display: none;
   }
@@ -334,14 +344,19 @@ h1 {
   }
   .fresh-flower {
     flex-direction: column-reverse;
-    width: 0;
+    /* width: 0; */
     text-align: center;
     align-items: center;
     justify-content: center;
   }
+  .fresh-flower-description h1 {
+    font-size: 30px;
+    font-weight: 700;
+    align-items: center;
+  }
   .fresh-flower-description {
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+      padding: 0; */
   }
   .trusted-badge {
     width: auto;
@@ -356,13 +371,13 @@ h1 {
     gap: 20px;
   }
   .main {
-    width: 576px;
+    width: 100%;
     margin: auto;
   }
   .card {
     width: 888px;
     /* margin: 10px auto; */
-    padding-right: 500px;
+    padding-right: 370px;
   }
   .our-pan {
     padding-right: 350px;
@@ -422,6 +437,8 @@ h1 {
     flex-direction: column;
     margin: auto;
   }
-  .container-2 {
+
+  .box h6 {
+    margin-top: -30px;
   }
 }
