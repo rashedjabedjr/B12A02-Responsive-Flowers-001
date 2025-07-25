@@ -415,4 +415,13 @@ h1 {
     height: 178px;
     margin-top: 110px;
   }
+  .deals-container {
+    flex-direction: column;
+  }
+  .left-column {
+    flex-direction: column;
+    margin: auto;
+  }
+  .container-2 {
+  }
 }
